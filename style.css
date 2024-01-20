@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../Nikita2/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  padding-left: 24px;
+  padding-top: 15px;
+  box-shadow: 2px 2px 2px #7e7e82;
+  position: absolute;
+  left: 0;
+  width: 320px;
+  height: 234px;
+  overflow: scroll;
+}
+
 .header__paragraf {
   font-size: 16px;
   line-height: 24px;
@@ -13,53 +43,61 @@
   border: none;
   background-color: #ffffff;
   border: 1px solid #eaeaea;
+  padding: 15px;
+  margin-right: 24px;
+  margin-bottom: 17px;
 }
 
-.main__btn::after {
+.main__list {
+  display: flex;
 }
 
 .lenovo {
-  background-image: url("./img/Lenovo.svg");
+  background-image: url("./img/Lenovo.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 .samsung {
-  background-image: url("./img/Samsung.svg");
+  background-image: url("./img/Samsung.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 .apple {
-  background-image: url("./img/Apple.svg");
+  background-image: url("./img/Apple.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 
 .viewsonic {
-  background-image: url("./img/ViewSonic.svg");
+  background-image: url("./img/ViewSonic.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 
 .bosch {
-  background-image: url("./img/Bosch.svg");
+  background-image: url("./img/Bosch.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 
 .hp {
-  background-image: url("./img/hp.svg");
+  background-image: url("./img/hp.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 
 .acer {
-  background-image: url("./img/acer.svg");
+  background-image: url("./img/acer.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
 }
 
 .sony {
-  background-image: url("./img/sony.svg");
+  background-image: url("./img/sony.svg"), url("./img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left, right;
+}
+
+.main__paragraf {
+  color: #1b1c21;
 }
