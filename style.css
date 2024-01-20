@@ -1,0 +1,65 @@
+.header__paragraf {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #7e7e82;
+}
+
+.main__btn {
+  width: 240px;
+  height: 72px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+
+.main__btn::after {
+}
+
+.lenovo {
+  background-image: url("./img/Lenovo.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.samsung {
+  background-image: url("./img/Samsung.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.apple {
+  background-image: url("./img/Apple.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.viewsonic {
+  background-image: url("./img/ViewSonic.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.bosch {
+  background-image: url("./img/Bosch.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hp {
+  background-image: url("./img/hp.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.acer {
+  background-image: url("./img/acer.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.sony {
+  background-image: url("./img/sony.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
